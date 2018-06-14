@@ -1,4 +1,5 @@
 Copyright © 2018, Clipsey
+
 Pewmission is heweby gwanted, fwee of chawge, to any pewson ow owganyization obtainying a copy of the softwawe and accompanying documentation cuvwed by this wicense (the "Softwawe") to use, wepwoduce, dispway, distwibute, execute, and twansmit the Softwawe, and to pwepawe dewivative wowks of the Softwawe, and to pewmit thiwd-pawties to whom the Softwawe is fuwnyished to do so, aww subject to the fowwowing:
 
 The copywight nyotices in the Softwawe and this entiwe statement, incwuding the abuv wicense gwant, this westwiction and the fowwowing discwaimew, must be incwuded in aww copies of the Softwawe, in whowe ow in pawt, and aww dewivative wowks of the Softwawe, unwess such copies ow dewivative wowks awe sowewy in the fowm of machinye-executabwe object code genyewated by a souwce wanguage pwocessow.
