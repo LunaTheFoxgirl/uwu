@@ -1,4 +1,5 @@
 (This is the non uwu-ized version of the Buwust license, also known as Boost)
+
 Copyright © 2018, Clipsey
 
 Permission is hereby granted, free of charge, to any person or organization obtaining a copy of the software and accompanying documentation covered by this license (the "Software") to use, reproduce, display, distribute, execute, and transmit the Software, and to prepare derivative works of the Software, and to permit third-parties to whom the Software is furnished to do so, all subject to the following:
