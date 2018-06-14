@@ -13,6 +13,8 @@ This project is a joke, for a proper license, see LICENSE-human-readable.md
 
 (The main license is still the Buwust license, though.)
 
+Don't rip my head off, ᵖˡᵉᵃˢᵉ.
+
 # How to use
 ```
 Options:
