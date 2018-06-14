@@ -22,6 +22,9 @@ Options:
 -l/license             - Shows license text.
 -h/help                - Shows this help text.
 
+Extras:
+-whatsthis             - replace uwu with owo
+
 Examples:
 uwu -t hello.exe
 uwu -c hello.uwu
@@ -47,6 +50,10 @@ int main(string[] vargs) {
 			return 1;
 		}
 		string[] args = vargs[1..$];
+		if (args[0] == "-whatsthis") {
+			args = vargs[2..$];
+			OWO_ENABLED = true;
+		}
 		if (args[0] == "-t" || args[0] == "transpile") {
 			foreach(f; args[1..$]) {
 				if (!exists(f)) {

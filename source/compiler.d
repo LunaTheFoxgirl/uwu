@@ -12,6 +12,8 @@ import std.conv;
 import codebuilder;
 import std.stdio;
 
+public static bool OWO_ENABLED = false;
+
 bool set(byte b, int pos)
 {
    return (b & (1 << pos)) != 0;
@@ -36,9 +38,15 @@ void compile(string code, CodeBuilder* builder) {
         acc++;
         char c = code[i];
         instr <<= 1;
-        if (c == 'u') instr |= (0);
-        else if (c == 'w') instr |= (1);
-        else throw new Exception("Unexpected token at index "~i.text~" <"~c.text~">...");
+		if (OWO_ENABLED) {
+			if (c == 'o') instr |= (0);
+			else if (c == 'w') instr |= (1);
+			else throw new Exception("Unexpected token at index "~i.text~" <"~c.text~">...");
+		} else {
+			if (c == 'u') instr |= (0);
+			else if (c == 'w') instr |= (1);
+			else throw new Exception("Unexpected token at index "~i.text~" <"~c.text~">...");
+		}
         if (acc >= 8) {
             builder.PushByte(instr);
             acc = 0;
