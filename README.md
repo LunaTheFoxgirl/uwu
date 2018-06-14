@@ -8,6 +8,11 @@ w is 1
 
 To compile the compiler, you will need the D language compiler, then run `dub` in this directory.
 
+## For lawyers
+This project is a joke, for a proper license, see LICENSE-human-readable.md
+
+(The main license is still the Buwust license, though.)
+
 # How to use
 ```
 Options:
