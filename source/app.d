@@ -65,8 +65,13 @@ int main(string[] vargs) {
 
 				// Output file.
 				string of = f;
-				if (f[$-4] == '.') of = f[0..$-3]~"uwu";
-				else of = of~".uwu";
+				if (OWO_ENABLED) {
+					if (f[$-4] == '.') of = f[0..$-3]~"owo";
+					else of = of~".owo";
+				} else {
+					if (f[$-4] == '.') of = f[0..$-3]~"uwu";
+					else of = of~".uwu";
+				}
 				File bfile = File(of, "w");
 
 				ubyte[] buffer = [1];
